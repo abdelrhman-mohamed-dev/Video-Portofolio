@@ -197,10 +197,10 @@ const SkeletonFour = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-        CapCut Maestro Effortlessly Simple Edits
+          {`CapCut Maestro Effortlessly Simple Edits`}
         </p>
         <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Delusional
+          {`Delusional`}
         </p>
       </motion.div>
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
@@ -212,7 +212,7 @@ const SkeletonFour = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-        Professional Adobe Premiere Pro Editor
+          {`Professional Adobe Premiere Pro Editor`}
         </p>
         <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
           Sensible
@@ -230,10 +230,10 @@ const SkeletonFour = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-        Creative Genius in After Effects.
+          {`Creative Genius in After Effects.`}
         </p>
         <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Helpless
+          {`Helpless`}
         </p>
       </motion.div>
     </motion.div>
@@ -283,7 +283,7 @@ const SkeletonFive = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="text-xs text-neutral-500">
-        Can you make some changes to this video ? ....
+          {`Can you make some changes to this video ? ....`}
         </p>
       </motion.div>
       <motion.div
@@ -301,7 +301,7 @@ const items = [
     title: "Cutting and Trimming",
     description: (
       <span className="text-sm">
-        Precisely cut and trim video footage to create a smooth, coherent sequence.
+        {`Precisely cut and trim video footage to create a smooth, coherent sequence.`}
       </span>
     ),
     header: <SkeletonOne />,
@@ -312,7 +312,7 @@ const items = [
     title: "Audio Editing",
     description: (
       <span className="text-sm">
-         Clean up, enhance, and sync audio tracks for clear and immersive sound quality.
+        {`Clean up, enhance, and sync audio tracks for clear and immersive sound quality.`}
       </span>
     ),
     header: <SkeletonTwo />,
@@ -323,7 +323,7 @@ const items = [
     title: "Color Correction",
     description: (
       <span className="text-sm">
-        Adjust colors to enhance visual appeal and maintain consistency across scenes.
+        {`Adjust colors to enhance visual appeal and maintain consistency across scenes.`}
       </span>
     ),
     header: <SkeletonThree />,
@@ -334,7 +334,7 @@ const items = [
     title: "Expert Video Editing Skills",
     description: (
       <span className="text-sm">
-        Transform your raw footage into captivating videos with expert video editing skills that bring your vision to life.
+        {`Transform your raw footage into captivating videos with expert video editing skills that bring your vision to life.`}
       </span>
     ),
     header: <SkeletonFour />,
@@ -346,7 +346,7 @@ const items = [
     title: "Collaboration and Feedback Integration",
     description: (
       <span className="text-sm">
-         Work with clients to incorporate feedback and achieve their vision for the final product.
+        {`Work with clients to incorporate feedback and achieve their vision for the final product.`}
       </span>
     ),
     header: <SkeletonFive />,
